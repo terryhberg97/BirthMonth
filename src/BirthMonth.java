@@ -11,9 +11,12 @@ public class BirthMonth {
         System.out.println("Enter your birth month (1-12): ");
         birthMonth = in.nextInt();
 
-        if (birthMonth <= 12) {
+        if (birthMonth <= 12)
+        {
             System.out.println("Your birth month is: " + birthMonth);
-        } else {
+        }
+        else
+        {
             System.out.println("You entered an incorrected month value: " + birthMonth);
         }
 
